@@ -21,4 +21,18 @@ public class Account {
     Account(double balance) {
         this.balance = balance;
     }
+
+    /**
+     * Withdraws funds from account.
+     * @param amount - Amount to be withdrawn from account.
+     * @return - Status message.
+     */
+    public String withdraw(double amount) {
+        if (amount > balance) {
+            return "Insufficient Funds";
+        } else {
+            balance -= amount;
+            return "Withdrawn";
+        }
+    }
 }
