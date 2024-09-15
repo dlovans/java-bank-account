@@ -35,4 +35,12 @@ public class Account {
             return "Withdrawn";
         }
     }
+
+    /**
+     * Deposits funds into account.
+     * @param amount - Amount to be deposited into account.
+     */
+    public void deposit(double amount) {
+        balance += amount;
+    }
 }
