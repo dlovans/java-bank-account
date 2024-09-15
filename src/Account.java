@@ -58,4 +58,20 @@ public class Account {
     public void deposit(double amount) {
         balance += amount;
     }
+
+    /**
+     * Returns the name of the account owner.
+     * @return - The account owner name.
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * Sets the name of the account owner.
+     * @param name - The account owner name.
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
 }
