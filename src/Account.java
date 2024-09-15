@@ -10,7 +10,7 @@ public class Account {
     /**
      * Name of account owner.
      */
-    private String name;
+    private String name = "Anonymous";
 
     /**
      * Creates an instance with default value.
