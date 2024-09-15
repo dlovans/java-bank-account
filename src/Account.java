@@ -74,4 +74,12 @@ public class Account {
     public void setName(String name) {
         this.name = name;
     }
+
+    /**
+     * Summarizes an instance of Account.
+     * @return - Summary of account.
+     */
+    public String toString() {
+        return String.format("%s has an outstanding balance of %.2f SEK", name, balance);
+    }
 }
