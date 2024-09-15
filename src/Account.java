@@ -8,6 +8,11 @@ public class Account {
     private double balance;
 
     /**
+     * Name of account owner.
+     */
+    private String name;
+
+    /**
      * Creates an instance with default value.
      */
     Account() {
@@ -20,6 +25,16 @@ public class Account {
      */
     Account(double balance) {
         this.balance = balance;
+    }
+
+    /**
+     * Creates an instance with specified values.
+     * @param balance - Balance in bank account.
+     * @param name - Name of account owner.
+     */
+    Account(double balance, String name) {
+        this.balance = balance;
+        this.name = name;
     }
 
     /**
