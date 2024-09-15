@@ -13,4 +13,12 @@ public class Account {
     Account() {
         balance = 0;
     }
+
+    /**
+     * Creates an instance with specified value.
+     * @param balance - Balance in bank account.
+     */
+    Account(double balance) {
+        this.balance = balance;
+    }
 }
