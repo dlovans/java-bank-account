@@ -15,7 +15,7 @@ public class Account {
     /**
      * Creates an instance with default value.
      */
-    Account() {
+    public Account() {
         balance = 0;
     }
 
@@ -23,7 +23,7 @@ public class Account {
      * Creates an instance with specified value.
      * @param balance - Balance in bank account.
      */
-    Account(double balance) {
+    public Account(double balance) {
         this.balance = balance;
     }
 
